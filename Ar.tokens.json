@@ -1,0 +1,2240 @@
+{
+  "common": {
+    "popup": {
+      "default": {
+        "title": {
+          "$type": "string",
+          "$value": "معلومات",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5659",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يرجى مراجعة المعلومات أدناه.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5660",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "متابعة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5661",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5662",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "systemError": {
+        "title": {
+          "$type": "string",
+          "$value": "خطأ",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5663",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "لا يمكننا إتمام عمليتك حالياً. هناك مشكلة مؤقتة في النظام، يرجى المحاولة مرة أخرى بعد قليل.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5664",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "حاول مرة أخرى",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5665",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5666",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "validationError": {
+        "title": {
+          "$type": "string",
+          "$value": "تحقق من المعلومات",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5667",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "بعض المعلومات ناقصة أو غير صحيحة. يرجى التحقق من جميع الحقول.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5668",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "حسناً",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5669",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "confirmation": {
+        "title": {
+          "$type": "string",
+          "$value": "هل تؤكد؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5670",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "لا يمكن التراجع عن هذه العملية بعد التأكيد.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5671",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "نعم، أؤكد",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5672",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5673",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "تنبيه",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5674",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "لا يمكن التراجع عن هذا الإجراء. هل أنت متأكد من المتابعة؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5675",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "نعم، متابعة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5676",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5677",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "title": {
+          "$type": "string",
+          "$value": "يرجى زيارة فرعنا",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5678",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "لا يمكننا إتمام هذه العملية عبر القنوات الرقمية حالياً. يمكنك زيارة أقرب فرع لنا أو الاتصال على 444 5 666.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5679",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "ابحث عن فرع",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5680",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "اتصل الآن",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5681",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "dialog": {
+      "confirm": {
+        "title": {
+          "$type": "string",
+          "$value": "هل تؤكد؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5682",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "ستخصم هذه العملية المبلغ من حسابك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5683",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "تأكيد",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5684",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5685",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "delete": {
+        "title": {
+          "$type": "string",
+          "$value": "هل أنت متأكد من الحذف؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5686",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "لا يمكن التراجع عن هذا الإجراء.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5687",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "نعم، احذف",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5688",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5689",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "logout": {
+        "title": {
+          "$type": "string",
+          "$value": "هل ترغب بتسجيل الخروج؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5690",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "سيتم تسجيل خروجك من حسابك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5691",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "نعم، تسجيل الخروج",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5692",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "إلغاء",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5693",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "toast": {
+      "success": {
+        "message": {
+          "$type": "string",
+          "$value": "اكتملت عمليتك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5694",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saved": {
+        "message": {
+          "$type": "string",
+          "$value": "تم الحفظ.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5695",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "message": {
+          "$type": "string",
+          "$value": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5696",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "إعادة المحاولة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5697",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "network": {
+        "message": {
+          "$type": "string",
+          "$value": "لا يوجد اتصال بالإنترنت.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5698",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "copied": {
+        "message": {
+          "$type": "string",
+          "$value": "تم النسخ.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5699",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "info": {
+        "title": {
+          "$type": "string",
+          "$value": "ميزة جديدة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5700",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يمكنك الآن إجراء المدفوعات السريعة بواسطة رمز QR.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5701",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "استكشف",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5702",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "لديك عملية معلقة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5703",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "هناك عملية تنتظر موافقتك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5704",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "عرض",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5705",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "title": {
+          "$type": "string",
+          "$value": "مشكلة في الاتصال",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5706",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "قد لا تكون بعض المعلومات محدثة.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5707",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "تحديث",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5708",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "success": {
+        "title": {
+          "$type": "string",
+          "$value": "تم تحديث ملفك الشخصي",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5709",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يمكنك المتابعة بمعلوماتك الجديدة.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5710",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "title": {
+          "$type": "string",
+          "$value": "ليس لديك حسابات حتى الآن.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5711",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يمكنك البدء بفتح حساب مشاركة أو حساب جاري.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5712",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "افتح حساباً",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5713",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noCards": {
+        "title": {
+          "$type": "string",
+          "$value": "ليس لديك بطاقات حتى الآن.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5714",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يمكنك التقدم بطلب الحصول على بطاقة ائتمان أو بطاقة خصم.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5715",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "اطلب بطاقة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5716",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noTransactions": {
+        "title": {
+          "$type": "string",
+          "$value": "لا توجد عمليات حتى الآن.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5717",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "ستظهر عمليتك الأولى هنا.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5718",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noResults": {
+        "title": {
+          "$type": "string",
+          "$value": "لم يتم العثور على نتائج.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5719",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يمكنك تجربة بحث مختلف.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5720",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "مسح البحث",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5721",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noFavorites": {
+        "title": {
+          "$type": "string",
+          "$value": "ليس لديك حسابات مفضلة.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5722",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "أضف حساباتك المستخدمة بكثرة إلى المفضلة للوصول السريع.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5723",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "errorScreen": {
+      "network": {
+        "title": {
+          "$type": "string",
+          "$value": "تعذر الاتصال.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5724",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يرجى التحقق من اتصال الإنترنت والمحاولة مرة أخرى.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5725",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "حاول مرة أخرى",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5726",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maintenance": {
+        "title": {
+          "$type": "string",
+          "$value": "جاري إجراء صيانة النظام.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5727",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "سنعود قريباً. شكراً لصبرك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5728",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "session": {
+        "title": {
+          "$type": "string",
+          "$value": "انتهت جلستك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5729",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يرجى تسجيل الدخول مرة أخرى للحفاظ على أمانك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5730",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "تسجيل الدخول",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5731",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "unknown": {
+        "title": {
+          "$type": "string",
+          "$value": "حدث خطأ ما.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5732",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يرجى المحاولة بعد قليل أو الاتصال بخط الدعم لدينا.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5733",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "حاول مرة أخرى",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5734",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "خط الدعم",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5735",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transfer": {
+        "title": {
+          "$type": "string",
+          "$value": "اكتمل التحويل",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5736",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "تم إرسال {amount} ليرة بنجاح إلى {recipient}.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5737",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "مشاركة الإيصال",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5738",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "تحويل جديد",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5739",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "application": {
+        "title": {
+          "$type": "string",
+          "$value": "تم استلام طلبك",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5740",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "طلبك قيد المراجعة. سنرسل لك النتيجة في أقرب وقت ممكن.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5741",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "العودة إلى الرئيسية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5742",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "title": {
+          "$type": "string",
+          "$value": "تم فتح حسابك",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5743",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "حسابك {accountName} جاهز للاستخدام.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5744",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "عرض الحساب",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5745",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "العودة إلى الرئيسية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5746",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "generic": {
+        "title": {
+          "$type": "string",
+          "$value": "اكتملت العملية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5747",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "تمت عمليتك بنجاح.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5748",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "حسناً",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5749",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "input": {
+      "iban": {
+        "label": {
+          "$type": "string",
+          "$value": "الآيبان",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5750",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "TR70 0006 2001 5720 0006 6972 11",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5751",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "أدخل رقم الآيبان المكون من 26 رقماً ويبدأ بـ TR.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5752",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "تنسيق الآيبان غير صحيح. يرجى التحقق.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5753",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "amount": {
+        "label": {
+          "$type": "string",
+          "$value": "المبلغ",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5754",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "0.00",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5755",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "الحد اليومي: {limit} ليرة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5756",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "يرجى التحقق من المبلغ.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5757",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "phone": {
+        "label": {
+          "$type": "string",
+          "$value": "رقم الجوال",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5758",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "5XX XXX XX XX",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5759",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "أدخل الرقم بدون الصفر في البداية.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5760",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "تنسيق رقم الجوال غير صحيح.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5761",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "idNumber": {
+        "label": {
+          "$type": "string",
+          "$value": "رقم الهوية الوطنية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5762",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "11 رقماً",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5763",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "يجب أن يكون رقم الهوية الوطنية مكوناً من 11 رقماً.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5764",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "required": {
+        "error": {
+          "$type": "string",
+          "$value": "لا يمكن ترك هذا الحقل فارغاً.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5765",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "loading": {
+      "generic": {
+        "message": {
+          "$type": "string",
+          "$value": "جاري التحميل…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5766",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "processing": {
+        "message": {
+          "$type": "string",
+          "$value": "جاري تنفيذ عمليتك…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5767",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saving": {
+        "message": {
+          "$type": "string",
+          "$value": "جاري الحفظ…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5768",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "fetching": {
+        "message": {
+          "$type": "string",
+          "$value": "جاري إحضار المعلومات…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5769",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "button": {
+      "continue": {
+        "$type": "string",
+        "$value": "متابعة",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5770",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirm": {
+        "$type": "string",
+        "$value": "تأكيد",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5771",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirmAndSend": {
+        "$type": "string",
+        "$value": "تأكيد وإرسال",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5772",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "cancel": {
+        "$type": "string",
+        "$value": "إلغاء",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5773",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "back": {
+        "$type": "string",
+        "$value": "رجوع",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5774",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "save": {
+        "$type": "string",
+        "$value": "حفظ",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5775",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "ok": {
+        "$type": "string",
+        "$value": "حسناً",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5776",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "yes": {
+        "$type": "string",
+        "$value": "نعم",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5777",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "no": {
+        "$type": "string",
+        "$value": "لا",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5778",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "tryAgain": {
+        "$type": "string",
+        "$value": "حاول مرة أخرى",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5779",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "callBranch": {
+        "$type": "string",
+        "$value": "اتصل بالفرع",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5780",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "contactSupport": {
+        "$type": "string",
+        "$value": "خط الدعم",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5781",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "share": {
+        "$type": "string",
+        "$value": "مشاركة",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5782",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "download": {
+        "$type": "string",
+        "$value": "تحميل",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5783",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "view": {
+        "$type": "string",
+        "$value": "عرض",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5784",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "home": {
+        "$type": "string",
+        "$value": "الرئيسية",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5785",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "newTransaction": {
+        "$type": "string",
+        "$value": "عملية جديدة",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5786",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "title": {
+      "error": {
+        "$type": "string",
+        "$value": "خطأ",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5787",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "warning": {
+        "$type": "string",
+        "$value": "تنبيه",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5788",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "info": {
+        "$type": "string",
+        "$value": "معلومات",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5789",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "success": {
+        "$type": "string",
+        "$value": "تم بنجاح",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5790",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "form": {
+      "section": {
+        "personalInfo": {
+          "$type": "string",
+          "$value": "المعلومات الشخصية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5791",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "contactInfo": {
+          "$type": "string",
+          "$value": "معلومات الاتصال",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5792",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "addressInfo": {
+          "$type": "string",
+          "$value": "معلومات العنوان",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5793",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "transactionDetails": {
+          "$type": "string",
+          "$value": "تفاصيل العملية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5794",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "receiverInfo": {
+          "$type": "string",
+          "$value": "معلومات المستلم",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5795",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "kb": {
+    "tooltip": {
+      "profitShare": {
+        "title": {
+          "$type": "string",
+          "$value": "ما هو حصة الربح؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5796",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "حصة الربح هو الدخل المنعكس على حسابك في نهاية المدة، بناءً على شراكة الأرباح والخسائر في حساب المشاركة. على عكس الفائدة، لا يُلتزم به مسبقاً ويتحدد في نهاية المدة.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5797",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "murabaha": {
+        "title": {
+          "$type": "string",
+          "$value": "ما هي المرابحة؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5798",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يقوم البنك بشراء السلعة التي يحتاجها العميل من البائع نقداً ويبيعها للعميل بالأجل، مع الإعلان الشفاف عن هامش الربح. كل من سعر الشراء وربح البنك معروفان مسبقاً.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5799",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "participationIndex": {
+        "title": {
+          "$type": "string",
+          "$value": "المؤشر الإسلامي",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5800",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "مؤشر يشمل الأسهم المتداولة في البورصة والمتوافقة مع مبادئ التمويل التشاركي.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5801",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "popup": {
+      "participationAccount": {
+        "confirm": {
+          "title": {
+            "$type": "string",
+            "$value": "فتح حساب مشاركة",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5802",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "سنقوم بإدارة مدخراتك في صندوق المشاركة لدى البركة. ستتم مشاركة الأرباح أو الخسائر في نهاية المدة وفقاً لنسبتك المحددة.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5803",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "helper": {
+            "$type": "string",
+            "$value": "هذا ليس وديعة. لا يُلتزم بأي ربح مسبقاً.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5804",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "أؤكد، افتح الحساب",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5805",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "secondaryAction": {
+            "$type": "string",
+            "$value": "احصل على معلومات",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5806",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "leaseCertificate": {
+        "info": {
+          "title": {
+            "$type": "string",
+            "$value": "ما هو شهادة الإيجار؟",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5807",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "شهادة الإيجار (الصكوك) هي شهادة استثمار تمثل حصص الملكية أو الانتفاع بأصل ما. لا تحتوي على فوائد وتستند إلى أصل.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5808",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "فهمت",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5809",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "intro": {
+      "financing": {
+        "title": {
+          "$type": "string",
+          "$value": "طلب تمويل",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5810",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "اختر السلع أو الخدمات التي ترغب في الحصول عليها. تشتريها البركة لك وتبيعها لك بالأقساط.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5811",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "هذا ليس قرضاً، بل طريقة تمويل تستند إلى شراء وبيع السلع/الخدمات (المرابحة).",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5812",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "متابعة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5813",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "advisoryBoard": {
+        "title": {
+          "$type": "string",
+          "$value": "معتمد من قبل الهيئة الاستشارية",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5814",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "تمت الموافقة على هذا المنتج من قبل الهيئة الاستشارية لبنك البركة للامتثال لمبادئ المصرفية التشاركية.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5815",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maturity": {
+        "title": {
+          "$type": "string",
+          "$value": "يقترب موعد الاستحقاق",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5816",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "يستحق حساب المشاركة الخاص بك في {date}. ستنعكس حصتك من الربح على حسابك في ذلك التاريخ.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5817",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "عرض التفاصيل",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5818",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "hajjUmrah": {
+        "title": {
+          "$type": "string",
+          "$value": "أنت خطوة أقرب إلى حلمك",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5819",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "وصل حساب توفير الحج والعمرة الخاص بك إلى {amount} ليرة. لقد أكملت {percentage}% من هدفك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5820",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "عرض حسابي",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5821",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "housingFinancing": {
+        "title": {
+          "$type": "string",
+          "$value": "تمويل المنزل",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5822",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "امتلك منزل أحلامك. تشتري البركة العقار لك وتبيعه بالأقساط.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5823",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "قدم طلب",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5824",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "outsideBistHours": {
+        "title": {
+          "$type": "string",
+          "$value": "لا يمكنك التداول الآن.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5825",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "تتم معالجة أوامر شراء/بيع الأسهم خلال ساعات جلسة BIST (10:00 - 18:00). لا تُقبل الأوامر خارج ساعات الجلسة.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5826",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "info": {
+      "interestSearch": {
+        "title": {
+          "$type": "string",
+          "$value": "لا فائدة في البركة",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5827",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "البركة بنك مشاركة. بدلاً من الفائدة، نطبق نموذج المشاركة في الأرباح والخسائر. قد يكون المنتج الذي تبحث عنه تحت \"حصة الربح\".",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5828",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "عرض حسابات حصة الربح",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5829",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "alba": {
+    "greeting": {
+      "welcome": {
+        "message": {
+          "$type": "string",
+          "$value": "مرحباً! كيف يمكنني مساعدتك؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5830",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "error": {
+      "system": {
+        "message": {
+          "$type": "string",
+          "$value": "لا أستطيع القيام بهذا الآن. هل تريد أن أحاول مرة أخرى بعد قليل؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5831",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "balance": {
+        "message": {
+          "$type": "string",
+          "$value": "رصيدك غير كافٍ لهذه العملية. هل نتابع بحساب آخر، أم تريد تغيير المبلغ؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5832",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "message": {
+          "$type": "string",
+          "$value": "لا أستطيع إجراء هذا عبر القنوات الرقمية. يمكنك المتابعة عبر فرعك أو الاتصال على 444 5 666. هل تريد أن أوصلك؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5833",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "message": {
+          "$type": "string",
+          "$value": "ليس لديك أي حسابات بعد. هل تريد فتح حساب مشاركة أو حساب جاري؟ يمكنني مساعدتك.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5834",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "لقد أتممت تحويلك. هل تريد أن أشاركك الإيصال؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5835",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "message": {
+          "$type": "string",
+          "$value": "لقد فتحت حساب المشاركة الخاص بك. ستنعكس حصة الربح على هذا الحساب عند الاستحقاق. هل هناك أي شيء آخر يمكنني مساعدتك فيه؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5836",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "prompt": {
+      "askAccount": {
+        "message": {
+          "$type": "string",
+          "$value": "أي حساب تود استخدامه؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5837",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "askAmount": {
+        "message": {
+          "$type": "string",
+          "$value": "كم تريد أن تحول؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5838",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "validation": {
+      "invalid": {
+        "message": {
+          "$type": "string",
+          "$value": "لم أتمكن من التحقق من المعلومات التي أدخلتها. هل يمكنك التحقق والمحاولة مرة أخرى؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5839",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "دعني ألخص عمليتك: سيتم إرسال {amount} ليرة إلى {recipient}. هل تؤكد؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5840",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "kb": {
+      "profitShare": {
+        "explain": {
+          "message": {
+            "$type": "string",
+            "$value": "تنعكس حصة الربح في حسابك في نهاية المدة بناءً على شراكة الأرباح والخسائر في حساب المشاركة. على عكس الفائدة، لا يُلتزم بها مسبقاً. هل تريد المزيد من المعلومات؟",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5841",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "goodbye": {
+      "message": {
+        "$type": "string",
+        "$value": "يسعدني أنني تمكنت من المساعدة. أنا هنا متى احتجت إلي.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5842",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "fallback": {
+      "unclear": {
+        "message": {
+          "$type": "string",
+          "$value": "لم أفهم سؤالك تماماً. هل كنت تسأل عن أحد هذه؟",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5843",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Ar"
+  }
+}

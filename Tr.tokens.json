@@ -1,0 +1,2240 @@
+{
+  "common": {
+    "popup": {
+      "default": {
+        "title": {
+          "$type": "string",
+          "$value": "Bilgilendirme",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5659",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Lütfen aşağıdaki bilgileri kontrol edin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5660",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Devam",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5661",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5662",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "systemError": {
+        "title": {
+          "$type": "string",
+          "$value": "Hata",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5663",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Sistemimizde oluşan bir hatadan dolayı işleminiz gerçekleştirilememektedir. Lütfen daha sonra tekrar deneyiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5664",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Tekrar Dene",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5665",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5666",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "validationError": {
+        "title": {
+          "$type": "string",
+          "$value": "Bilgileri Kontrol Edin",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5667",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Girdiğiniz bilgiler eksik veya hatalı. Lütfen kontrol edin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5668",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Tamam",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5669",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "confirmation": {
+        "title": {
+          "$type": "string",
+          "$value": "Onaylıyor musunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5670",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İşleminiz onaylandıktan sonra geri alınamaz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5671",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Evet, Onayla",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5672",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5673",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "Uyarı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5674",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Bu işlem geri alınamaz. Devam etmek istiyor musunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5675",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Evet, Devam Et",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5676",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5677",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "title": {
+          "$type": "string",
+          "$value": "Şubemize Başvurun",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5678",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İşleminiz dijital kanallar üzerinden gerçekleştirilememektedir. En yakın şubemize başvurabilir veya 0850 222 5 666' Alo Albaraka'yı arayabilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5679",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Şubeyi Bul",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5680",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Alo Albaraka'yı Ara",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5681",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "dialog": {
+      "confirm": {
+        "title": {
+          "$type": "string",
+          "$value": "Onaylıyor musunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5682",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İşlem tutarı hesabınızdan tahsil edilecektir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5683",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Onayla",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5684",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5685",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "delete": {
+        "title": {
+          "$type": "string",
+          "$value": "Silmek İstediğinize Emin misiniz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5686",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Bu işlem geri alınamaz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5687",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Evet, Sil",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5688",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5689",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "logout": {
+        "title": {
+          "$type": "string",
+          "$value": "Çıkış Yapmak İstiyor musunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5690",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Hesabınızdan çıkış yapılacak.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5691",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Evet, Çık",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5692",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Vazgeç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5693",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "toast": {
+      "success": {
+        "message": {
+          "$type": "string",
+          "$value": "İşleminiz tamamlandı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5694",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saved": {
+        "message": {
+          "$type": "string",
+          "$value": "Kaydedildi.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5695",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "message": {
+          "$type": "string",
+          "$value": "Bir sorun oluştu. Tekrar deneyin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5696",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Tekrar Dene",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5697",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "network": {
+        "message": {
+          "$type": "string",
+          "$value": "İnternet bağlantısı yok.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5698",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "copied": {
+        "message": {
+          "$type": "string",
+          "$value": "Kopyalandı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5699",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "info": {
+        "title": {
+          "$type": "string",
+          "$value": "Yeni Özellik",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5700",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Artık QR kod ile hızlı ödeme yapabilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5701",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Keşfet",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5702",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "Bekleyen İşleminiz Var",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5703",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Onayınızı bekleyen bir işlem bulunuyor.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5704",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Görüntüle",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5705",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "title": {
+          "$type": "string",
+          "$value": "Bağlantı Sorunu",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5706",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Bazı bilgiler güncel olmayabilir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5707",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Yenile",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5708",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "success": {
+        "title": {
+          "$type": "string",
+          "$value": "Profiliniz Güncellendi",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5709",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Güncel bilgilerinizle devam edebilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5710",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "title": {
+          "$type": "string",
+          "$value": "Henüz hesabınız yok.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5711",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Katılma hesabı veya özel cari hesap açabilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5712",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Hesap Aç",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5713",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noCards": {
+        "title": {
+          "$type": "string",
+          "$value": "Henüz kartınız yok.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5714",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Kredi kartı veya banka kartı başvurusu yapabilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5715",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Kart Başvurusu",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5716",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noTransactions": {
+        "title": {
+          "$type": "string",
+          "$value": "Henüz işlem bulunmuyor.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5717",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İlk işleminiz gerçekleştiğinde burada görüntülenecektir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5718",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noResults": {
+        "title": {
+          "$type": "string",
+          "$value": "Aradığınız sonuç bulunamadı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5719",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Farklı bir arama yapmayı deneyebilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5720",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Aramayı Temizle",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5721",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noFavorites": {
+        "title": {
+          "$type": "string",
+          "$value": "Favori hesabınız yok.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5722",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Sık kullandığınız hesapları favorilere ekleyerek hızlı erişim sağlayabilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5723",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "errorScreen": {
+      "network": {
+        "title": {
+          "$type": "string",
+          "$value": "Bağlantı kurulamadı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5724",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İnternet bağlantınızı kontrol edip tekrar deneyin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5725",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Tekrar Dene",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5726",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maintenance": {
+        "title": {
+          "$type": "string",
+          "$value": "Sistem bakımı yapılıyor.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5727",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Hizmetlerimize kısa süre içinden yeniden erişebilirsiniz. Anlayışınız için teşekkür ederiz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5728",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "session": {
+        "title": {
+          "$type": "string",
+          "$value": "Oturumunuz sona erdi.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5729",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Güvenlik için tekrar giriş yapın.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5730",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Giriş Yap",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5731",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "unknown": {
+        "title": {
+          "$type": "string",
+          "$value": "Bir hata oluştu.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5732",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Lütfen birkaç dakika sonra tekrar deneyin veya müşteri hizmetlerimizle iletişime geçin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5733",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Tekrar Dene",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5734",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Müşteri Hizmetleri",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5735",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transfer": {
+        "title": {
+          "$type": "string",
+          "$value": "Transfer Gerçekleşti",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5736",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "{amount} TL, {recipient} hesabına gönderildi.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5737",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Dekont Paylaş",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5738",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Yeni Transfer Yap",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5739",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "application": {
+        "title": {
+          "$type": "string",
+          "$value": "Başvurunuz Alındı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5740",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Başvurunuz değerlendirmeye alınmıştır. Sonuç tarafınıza en kısa sürede bildirilecektir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5741",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Ana Sayfaya Dön",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5742",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "title": {
+          "$type": "string",
+          "$value": "Hesabınız Açıldı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5743",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "{accountName} hesabınız kullanıma hazır.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5744",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Hesabı Görüntüle",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5745",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Ana Sayfaya Dön",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5746",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "generic": {
+        "title": {
+          "$type": "string",
+          "$value": "İşleminiz Tamamlandı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5747",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "İşleminiz gerçekleştirildi.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5748",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Tamam",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5749",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "input": {
+      "iban": {
+        "label": {
+          "$type": "string",
+          "$value": "IBAN",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5750",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "TR70 0006 2001 5720 0006 6972 11",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5751",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "TR ile başlayan 26 haneli IBAN'ı girin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5752",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "IBAN formatı hatalı. Kontrol edin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5753",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "amount": {
+        "label": {
+          "$type": "string",
+          "$value": "Tutar",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5754",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "0,00",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5755",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Günlük limit: {limit} TL",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5756",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "Tutarı kontrol edin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5757",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "phone": {
+        "label": {
+          "$type": "string",
+          "$value": "Cep Telefonu",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5758",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "5XX XXX XX XX",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5759",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Başında 0 olmadan girin.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5760",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "Cep telefonu formatı hatalı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5761",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "idNumber": {
+        "label": {
+          "$type": "string",
+          "$value": "T.C. Kimlik Numarası",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5762",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "11 haneli",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5763",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "T.C. Kimlik Numarası 11 haneli olmalı.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5764",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "required": {
+        "error": {
+          "$type": "string",
+          "$value": "Bu alan boş bırakılamaz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5765",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "loading": {
+      "generic": {
+        "message": {
+          "$type": "string",
+          "$value": "Yükleniyor…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5766",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "processing": {
+        "message": {
+          "$type": "string",
+          "$value": "İşleminiz gerçekleştiriliyor…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5767",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saving": {
+        "message": {
+          "$type": "string",
+          "$value": "Kaydediliyor…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5768",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "fetching": {
+        "message": {
+          "$type": "string",
+          "$value": "Bilgiler yükleniyor…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5769",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "button": {
+      "continue": {
+        "$type": "string",
+        "$value": "Devam",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5770",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirm": {
+        "$type": "string",
+        "$value": "Onayla",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5771",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirmAndSend": {
+        "$type": "string",
+        "$value": "Onayla ve Gönder",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5772",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "cancel": {
+        "$type": "string",
+        "$value": "Vazgeç",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5773",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "back": {
+        "$type": "string",
+        "$value": "Geri",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5774",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "save": {
+        "$type": "string",
+        "$value": "Kaydet",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5775",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "ok": {
+        "$type": "string",
+        "$value": "Tamam",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5776",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "yes": {
+        "$type": "string",
+        "$value": "Evet",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5777",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "no": {
+        "$type": "string",
+        "$value": "Hayır",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5778",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "tryAgain": {
+        "$type": "string",
+        "$value": "Tekrar Dene",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5779",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "callBranch": {
+        "$type": "string",
+        "$value": "Şubeyi Ara",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5780",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "contactSupport": {
+        "$type": "string",
+        "$value": "Müşteri Hizmetleri",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5781",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "share": {
+        "$type": "string",
+        "$value": "Paylaş",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5782",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "download": {
+        "$type": "string",
+        "$value": "İndir",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5783",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "view": {
+        "$type": "string",
+        "$value": "Görüntüle",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5784",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "home": {
+        "$type": "string",
+        "$value": "Ana Sayfa",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5785",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "newTransaction": {
+        "$type": "string",
+        "$value": "Yeni İşlem",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5786",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "title": {
+      "error": {
+        "$type": "string",
+        "$value": "Hata",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5787",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "warning": {
+        "$type": "string",
+        "$value": "Uyarı",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5788",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "info": {
+        "$type": "string",
+        "$value": "Bilgi",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5789",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "success": {
+        "$type": "string",
+        "$value": "Başarılı",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5790",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "form": {
+      "section": {
+        "personalInfo": {
+          "$type": "string",
+          "$value": "Kişisel Bilgiler",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5791",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "contactInfo": {
+          "$type": "string",
+          "$value": "İletişim Bilgileri",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5792",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "addressInfo": {
+          "$type": "string",
+          "$value": "Adres Bilgileri",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5793",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "transactionDetails": {
+          "$type": "string",
+          "$value": "İşlem Detayları",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5794",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "receiverInfo": {
+          "$type": "string",
+          "$value": "Alıcı Bilgileri",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5795",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "kb": {
+    "tooltip": {
+      "profitShare": {
+        "title": {
+          "$type": "string",
+          "$value": "Kâr Payı Nedir?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5796",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Kâr payı, katılma hesabınızdan elde edilen kâr/zarar ortaklığı sonucunda dönem sonunda hesabınıza yansıyan gelirdir. Faizden farklı olarak önceden taahhüt edilmez, vade sonunda kesinleşir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5797",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "murabaha": {
+        "title": {
+          "$type": "string",
+          "$value": "Murabaha Nedir?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5798",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Murabaha, bankanın müşterinin ihtiyaç duyduğu malı peşin satın alıp, maliyetini ve kâr oranını şeffaf şekilde açıklayarak müşteriye vadeli satmasıdır.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5799",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "participationIndex": {
+        "title": {
+          "$type": "string",
+          "$value": "Katılım Endeksi",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5800",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Katılım finansı prensiplerine uygun faaliyet gösteren ve borsada işlem gören şirketlerin pay senetlerinden oluşan endekstir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5801",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "popup": {
+      "participationAccount": {
+        "confirm": {
+          "title": {
+            "$type": "string",
+            "$value": "Katılma Hesabınız Açılıyor",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5802",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "Birikiminiz katılım fonu havuzunda değerlendirilir. Vade sonunda oluşan kâr veya zarar, belirlenen paylaşım oranları doğrultusunda hesabınıza yansıtılır.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5803",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "helper": {
+            "$type": "string",
+            "$value": "Mevduat değildir. Önceden kâr taahhüdü verilmez.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5804",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "Onaylıyorum, Hesabı Aç",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5805",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "secondaryAction": {
+            "$type": "string",
+            "$value": "Bilgi Al",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5806",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "leaseCertificate": {
+        "info": {
+          "title": {
+            "$type": "string",
+            "$value": "Kira Sertifikası Nedir?",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5807",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "Kira sertifikası (Sukuk), bir varlığın mülkiyetini veya kullanım hakkını temsil eden yatırım aracıdır. Faiz içermez ve varlığa dayalıdır.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5808",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "Anladım",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5809",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "intro": {
+      "financing": {
+        "title": {
+          "$type": "string",
+          "$value": "Finansman Başvurusu",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5810",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Satın almak istediğiniz mal veya hizmeti seçin. Albaraka bu mal veya hizmeti sizin adınıza satın alır ve vadeli olarak satar.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5811",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Bu işlem kredi değildir. Murabaha esasına dayanan bir finansman yöntemidir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5812",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Devam Et",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5813",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "advisoryBoard": {
+        "title": {
+          "$type": "string",
+          "$value": "Danışma Kurulu Onaylı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5814",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Bu ürün, Albaraka Danışma Kurulu tarafından katılım bankacılığı prensiplerine uygun bulunmuştur.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5815",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maturity": {
+        "title": {
+          "$type": "string",
+          "$value": "Vade Sonu Yaklaşıyor",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5816",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Katılma hesabınızın vadesi {date} tarihinde sona erecektir. Oluşan kâr payı bu tarihte hesabınıza yansıtılacaktır.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5817",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Detayları Gör",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5818",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "hajjUmrah": {
+        "title": {
+          "$type": "string",
+          "$value": "Hayalinize Bir Adım Daha Yakınsınız",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5819",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Hac/Umre Birikim Hesabınız {amount} TL'ye ulaştı. Hedef tutarınızın %{percentage}'sini tamamladınız.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5820",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Hesabımı Gör",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5821",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "housingFinancing": {
+        "title": {
+          "$type": "string",
+          "$value": "Konut Finansmanı",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5822",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Hayalinizdeki eve sahip olun. Albaraka konutu satın alır ve size vadeli olarak satar.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5823",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Başvuru Yap",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5824",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "outsideBistHours": {
+        "title": {
+          "$type": "string",
+          "$value": "İşlem gerçekleştirilememektedir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5825",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Pay senedi alım ve satım emirleri, BIST işlem saatleri içerisinde (10:00–18:00) iletilebilir. Seans saatleri dışında emir kabul edilmemektedir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5826",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "info": {
+      "interestSearch": {
+        "title": {
+          "$type": "string",
+          "$value": "Albaraka'da Faiz Yoktur",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5827",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Albaraka bir katılım bankasıdır. Faiz yerine kâr ve zarar paylaşımı esasına dayalı finansal çözümler sunulmaktadır. Aradığınız ürün, \"Kâr Payı\" kategorisinde yer alıyor olabilir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5828",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Kâr Payı Hesaplarını Gör",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5829",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "alba": {
+    "greeting": {
+      "welcome": {
+        "message": {
+          "$type": "string",
+          "$value": "Merhaba! Size nasıl yardımcı olabilirim?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5830",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "error": {
+      "system": {
+        "message": {
+          "$type": "string",
+          "$value": "Bu işlemi şu an yapamıyorum. Birkaç dakika sonra tekrar denememi ister misiniz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5831",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "balance": {
+        "message": {
+          "$type": "string",
+          "$value": "Hesabınızdaki bakiye bu işlem için yeterli değil. Başka bir hesabınızı seçebilir ya da tutarı değiştirebilirsiniz.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5832",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "message": {
+          "$type": "string",
+          "$value": "Bu işlemi şu anlık gerçekleştiremiyorum. Şubeniz veya Alo Albaraka üzerinden devam edebilirsiniz. Sizi yönlendirmemi ister misiniz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5833",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "message": {
+          "$type": "string",
+          "$value": "Henüz bir hesabınız bulunmuyor. Katılma hesabı veya özel cari hesap açmak ister misiniz? Size yardımcı olabilirim.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5834",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "Transferinizi tamamladım. Dekontu sizinle paylaşmamı ister misiniz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5835",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "message": {
+          "$type": "string",
+          "$value": "Katılma hesabınızı açtım. Vade sonunda kâr payınız bu hesaba yansıyacak. Başka yardımcı olabileceğim bir konu var mı?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5836",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "prompt": {
+      "askAccount": {
+        "message": {
+          "$type": "string",
+          "$value": "Hangi hesabınızla işlem yapmak istiyorsunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5837",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "askAmount": {
+        "message": {
+          "$type": "string",
+          "$value": "Ne kadar transfer etmek istiyorsunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5838",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "validation": {
+      "invalid": {
+        "message": {
+          "$type": "string",
+          "$value": "Girdiğiniz bilgileri doğrulayamadım. Bilgilerinizi kontrol edip tekrar yazabilir misiniz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5839",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "{recipient}'a {amount} TL göndermek üzeresiniz. Onaylıyor musunuz?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5840",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "kb": {
+      "profitShare": {
+        "explain": {
+          "message": {
+            "$type": "string",
+            "$value": "Kâr payı, katılma hesabınızdan elde edilen kâr/zarar ortaklığı sonucunda vade sonunda hesabınıza yansır. Faizden farklı olarak önceden taahhüt edilmez. Daha fazla bilgi vermemi ister misiniz?",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5841",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "goodbye": {
+      "message": {
+        "$type": "string",
+        "$value": "Başka bir konuda yardımcı olabilir miyim?",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5842",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "fallback": {
+      "unclear": {
+        "message": {
+          "$type": "string",
+          "$value": "Sorunuzu tam olarak anlayamadım. Şunlardan biriyle ilgili olabilir mi?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5843",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Tr"
+  }
+}
