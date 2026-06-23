@@ -1,9 +1,9 @@
 {
   "font": {
     "family": {
-      "sans": {
+      "Noto Sans": {
         "$type": "string",
-        "$value": "Open Sans",
+        "$value": "Noto Sans",
         "$extensions": {
           "com.figma.variableId": "VariableID:34:14",
           "com.figma.scopes": [
@@ -56,6 +56,16 @@
       }
     },
     "size": {
+      "xxs": {
+        "$type": "number",
+        "$value": 11,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:8048",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
       "xs": {
         "$type": "number",
         "$value": 12,

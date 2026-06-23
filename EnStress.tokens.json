@@ -1,0 +1,2240 @@
+{
+  "common": {
+    "popup": {
+      "default": {
+        "title": {
+          "$type": "string",
+          "$value": "Important Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5659",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Please carefully review the information provided below.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5660",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Continue Forward",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5661",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5662",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "systemError": {
+        "title": {
+          "$type": "string",
+          "$value": "Transaction Could Not Complete",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5663",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your transaction cannot be completed at this moment. There is a temporary issue with our system. Please try again in a few minutes.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5664",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Try Again Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5665",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5666",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "validationError": {
+        "title": {
+          "$type": "string",
+          "$value": "Please Recheck Your Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5667",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Some of the information you entered appears to be missing or incorrect. Please review all fields before continuing.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5668",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "OK, I Will Check",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5669",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "confirmation": {
+        "title": {
+          "$type": "string",
+          "$value": "Are You Sure You Want To Confirm?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5670",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "This transaction cannot be undone or reversed once you confirm it.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5671",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Yes, Confirm Transaction",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5672",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5673",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "Important Notice",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5674",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "The action you are about to perform cannot be undone. Are you completely sure you want to continue?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5675",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Yes, I Understand Continue",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5676",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5677",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "title": {
+          "$type": "string",
+          "$value": "Please Visit Our Nearest Branch",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5678",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "This transaction cannot be completed through Albaraka Mobil or Internet Branch at this time.You may visit your nearest Albaraka branch or contact Alo Albaraka at 0850 222 5 666.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5679",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Find Nearest Branch",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5680",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Call Alo Albaraka Right Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5681",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "dialog": {
+      "confirm": {
+        "title": {
+          "$type": "string",
+          "$value": "Are You Sure You Want to Confirm?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5682",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Bu işlemi onayladığınızda belirtilen tutar seçtiğiniz hesabınızdan otomatik olarak düşecektir.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5683",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Confirm Transaction",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5684",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5685",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "delete": {
+        "title": {
+          "$type": "string",
+          "$value": "Are You Sure You Want to Permanently Delete?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5686",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Once this record is deleted, it cannot be restored or recovered later.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5687",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Yes, Delete Permanently",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5688",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Cancel For Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5689",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "logout": {
+        "title": {
+          "$type": "string",
+          "$value": "Do You Want to Log Out From Albaraka Mobile?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5690",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your session will be closed and you will need to log in again to continue using the app.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5691",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Yes, Log Me Out",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5692",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "No, Continue Session",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5693",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "toast": {
+      "success": {
+        "message": {
+          "$type": "string",
+          "$value": "Your money transfer transaction is completed.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5694",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saved": {
+        "message": {
+          "$type": "string",
+          "$value": "Your changes have been saved.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5695",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "message": {
+          "$type": "string",
+          "$value": "An unexpected issue occurred during the transaction. Please try again.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5696",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Try Again",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5697",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "network": {
+        "message": {
+          "$type": "string",
+          "$value": "Internet connection not found, please check.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5698",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "copied": {
+        "message": {
+          "$type": "string",
+          "$value": "Text copied to clipboard.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5699",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "info": {
+        "title": {
+          "$type": "string",
+          "$value": "A New Feature Has Been Added",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5700",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can now make quick payments using QR Code on Albaraka Mobile in just seconds.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5701",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Discover Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5702",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "warning": {
+        "title": {
+          "$type": "string",
+          "$value": "You Have a Pending Transaction Awaiting Approval",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5703",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "There is an active transaction waiting for you to approve.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5704",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "View Transaction",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5705",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "error": {
+        "title": {
+          "$type": "string",
+          "$value": "Connection Issue With Service",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5706",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Due to a temporary connection issue with our service, some information may not appear up to date.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5707",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Refresh Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5708",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "success": {
+        "title": {
+          "$type": "string",
+          "$value": "Your Profile Information Has Been Updated",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5709",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can continue using Albaraka Mobile with your updated information.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5710",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "title": {
+          "$type": "string",
+          "$value": "You do not have any active accounts yet at Albaraka.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5711",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can open a participation account for your savings or a current account for your daily transactions.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5712",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Open Account Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5713",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noCards": {
+        "title": {
+          "$type": "string",
+          "$value": "There are no active cards registered to your name.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5714",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can apply for a credit card or a debit card for your online shopping and daily expenses.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5715",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Apply For Card Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5716",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noTransactions": {
+        "title": {
+          "$type": "string",
+          "$value": "There are no transactions in this account yet.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5717",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Once you make your first transaction, all your movements will start to be listed here.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5718",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noResults": {
+        "title": {
+          "$type": "string",
+          "$value": "No results matching your search criteria were found.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5719",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can try searching again using a different keyword or by changing your filter options.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5720",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Clear Search and Refresh",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5721",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "noFavorites": {
+        "title": {
+          "$type": "string",
+          "$value": "You have not marked any account as favorite.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5722",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Add your regularly used accounts to your favorites for quick and easy access next time you log in.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5723",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "errorScreen": {
+      "network": {
+        "title": {
+          "$type": "string",
+          "$value": "Could not connect to the server.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5724",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "You can check your device internet connection and then try to connect again.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5725",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Try Connecting Again",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5726",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maintenance": {
+        "title": {
+          "$type": "string",
+          "$value": "Scheduled maintenance is currently in progress.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5727",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "We are conducting a short maintenance to provide you with better service. Thank you for your patience, we will be back shortly.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5728",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "session": {
+        "title": {
+          "$type": "string",
+          "$value": "Your session has ended for security reasons.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5729",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "For the security of your account, your session is automatically closed after a period of inactivity. You can log in again to continue.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5730",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Log In Again",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5731",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "unknown": {
+        "title": {
+          "$type": "string",
+          "$value": "An unexpected issue has occurred.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5732",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "We are working to resolve this issue as soon as possible. You may try again in a few minutes or get help from Alo Albaraka.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5733",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Try Once Again",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5734",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Call Alo Albaraka",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5735",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transfer": {
+        "title": {
+          "$type": "string",
+          "$value": "Your Transfer Has Been Completed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5736",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "The transfer of {amount} TL has been processed to the account of the recipient named {recipient}.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5737",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Share Transaction Receipt",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5738",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Make Another Transfer",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5739",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "application": {
+        "title": {
+          "$type": "string",
+          "$value": "Your Application Has Been Received",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5740",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your application has been taken into the evaluation process by our Bank. The evaluation result will be shared with you as soon as possible.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5741",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Go Back to Home Page",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5742",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "title": {
+          "$type": "string",
+          "$value": "Your New Account Has Been Opened",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5743",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your account named {accountName} is now ready for use for all your transactions.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5744",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "View Account Details",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5745",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "secondaryAction": {
+          "$type": "string",
+          "$value": "Go Back to Home Page",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5746",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "generic": {
+        "title": {
+          "$type": "string",
+          "$value": "Your Transaction Has Been Completed",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5747",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "The transaction you requested has been processed and completed.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5748",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "OK, Understood",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5749",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "input": {
+      "iban": {
+        "label": {
+          "$type": "string",
+          "$value": "IBAN Number",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5750",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "TR70 0006 2001 5720 0006 6972 11",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5751",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Please enter your 26-digit IBAN number that starts with TR.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5752",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "The IBAN format you entered appears to be incorrect. Please check.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5753",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "amount": {
+        "label": {
+          "$type": "string",
+          "$value": "Transaction Amount",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5754",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "0,00",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5755",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Your daily transaction limit: {limit} TL",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5756",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "Please check the transaction amount you entered.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5757",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "phone": {
+        "label": {
+          "$type": "string",
+          "$value": "Mobile Phone Number",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5758",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "5XX XXX XX XX",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5759",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "Please enter the number without the leading 0.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5760",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "The mobile phone number format you entered is incorrect.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5761",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "idNumber": {
+        "label": {
+          "$type": "string",
+          "$value": "Your National ID Number",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5762",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "placeholder": {
+          "$type": "string",
+          "$value": "11-digit number",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5763",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "error": {
+          "$type": "string",
+          "$value": "Your National ID Number must consist of 11 digits, please check.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5764",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "required": {
+        "error": {
+          "$type": "string",
+          "$value": "This field is required and cannot be left empty.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5765",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "loading": {
+      "generic": {
+        "message": {
+          "$type": "string",
+          "$value": "Information is loading, please wait…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5766",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "processing": {
+        "message": {
+          "$type": "string",
+          "$value": "Your transaction is being processed, please wait…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5767",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "saving": {
+        "message": {
+          "$type": "string",
+          "$value": "Your changes are being saved…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5768",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "fetching": {
+        "message": {
+          "$type": "string",
+          "$value": "Your account information is loading…",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5769",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "button": {
+      "continue": {
+        "$type": "string",
+        "$value": "Continue Forward",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5770",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirm": {
+        "$type": "string",
+        "$value": "Confirm Transaction",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5771",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "confirmAndSend": {
+        "$type": "string",
+        "$value": "Confirm and Send Now",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5772",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "cancel": {
+        "$type": "string",
+        "$value": "Cancel For Now",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5773",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "back": {
+        "$type": "string",
+        "$value": "Go Back",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5774",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "save": {
+        "$type": "string",
+        "$value": "Save Changes",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5775",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "ok": {
+        "$type": "string",
+        "$value": "OK, Understood",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5776",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "yes": {
+        "$type": "string",
+        "$value": "Yes, I Confirm",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5777",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "no": {
+        "$type": "string",
+        "$value": "No, Cancel",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5778",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "tryAgain": {
+        "$type": "string",
+        "$value": "Try Again Now",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5779",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "callBranch": {
+        "$type": "string",
+        "$value": "Call Nearest Branch",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5780",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "contactSupport": {
+        "$type": "string",
+        "$value": "Call Customer Service",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5781",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "share": {
+        "$type": "string",
+        "$value": "Share Information",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5782",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "download": {
+        "$type": "string",
+        "$value": "Download File",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5783",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "view": {
+        "$type": "string",
+        "$value": "View Details",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5784",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "home": {
+        "$type": "string",
+        "$value": "Back to Home Page",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5785",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "newTransaction": {
+        "$type": "string",
+        "$value": "Start New Transaction",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5786",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "title": {
+      "error": {
+        "$type": "string",
+        "$value": "Transaction Error",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5787",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "warning": {
+        "$type": "string",
+        "$value": "Important Warning",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5788",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "info": {
+        "$type": "string",
+        "$value": "Information Notice",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5789",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      },
+      "success": {
+        "$type": "string",
+        "$value": "Transaction Successful",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5790",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "form": {
+      "section": {
+        "personalInfo": {
+          "$type": "string",
+          "$value": "Your Personal Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5791",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "contactInfo": {
+          "$type": "string",
+          "$value": "Your Contact Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5792",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "addressInfo": {
+          "$type": "string",
+          "$value": "Your Residential Address Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5793",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "transactionDetails": {
+          "$type": "string",
+          "$value": "Transaction Detail Information",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5794",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "receiverInfo": {
+          "$type": "string",
+          "$value": "Personal Information of the Recipient",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5795",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "kb": {
+    "tooltip": {
+      "profitShare": {
+        "title": {
+          "$type": "string",
+          "$value": "What You Need to Know About Profit Share",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5796",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Profit share is the income reflected to your account at the end of the term as a result of the profit/loss partnership in your participation account, where your savings are evaluated in Albaraka participation fund pool. Unlike interest, it is not committed in advance and finalized at the end of the term.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5797",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "murabaha": {
+        "title": {
+          "$type": "string",
+          "$value": "About the Murabahah Method",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5798",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "In the Murabahah method, the bank purchases the goods needed by the customer from the seller in cash and sells them to the customer on deferred terms by transparently stating its own profit margin. Both the actual purchase price of the goods and the profit obtained by the bank are known in advance.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5799",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "participationIndex": {
+        "title": {
+          "$type": "string",
+          "$value": "What Is the Participation Index?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5800",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "It is a performance indicator that includes the stocks of companies traded on Borsa Istanbul whose compliance with participation finance principles has been approved.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5801",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "popup": {
+      "participationAccount": {
+        "confirm": {
+          "title": {
+            "$type": "string",
+            "$value": "Your Participation Account Is About to Be Opened",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5802",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "We will evaluate your savings in Albaraka participation fund pool based on the profit/loss partnership principle. The profit or loss obtained at the end of the term will be shared according to the partnership ratio determined for you.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5803",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "helper": {
+            "$type": "string",
+            "$value": "This is not a deposit account. No profit or yield is committed in advance.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5804",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "I Understand and Confirm, Open Account",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5805",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "secondaryAction": {
+            "$type": "string",
+            "$value": "Get More Information",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5806",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      },
+      "leaseCertificate": {
+        "info": {
+          "title": {
+            "$type": "string",
+            "$value": "Information About Lease Certificate",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5807",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "description": {
+            "$type": "string",
+            "$value": "Lease certificate (also known as sukuk) is an investment certificate specific to participation banking that represents the ownership or beneficiary shares of an asset. It contains no interest and is necessarily backed by a tangible asset.",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5808",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          },
+          "primaryAction": {
+            "$type": "string",
+            "$value": "I Have Been Informed, Understand",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5809",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "intro": {
+      "financing": {
+        "title": {
+          "$type": "string",
+          "$value": "Welcome to the Financing Application Process",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5810",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Choose the goods or services you need. Albaraka purchases the said goods or services from the seller in cash on your behalf and sells them to you on deferred terms according to the agreement made with you.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5811",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "helper": {
+          "$type": "string",
+          "$value": "This transaction is not a conventional loan. It is a participation banking financing method based on the actual purchase and sale of goods or services (Murabahah).",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5812",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "primaryAction": {
+          "$type": "string",
+          "$value": "Continue Application",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5813",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "banner": {
+      "advisoryBoard": {
+        "title": {
+          "$type": "string",
+          "$value": "Approved by Albaraka Advisory Board",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5814",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "This product offered has been carefully reviewed and approved by the Albaraka Advisory Board for compliance with participation banking and interest-free principles.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5815",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "maturity": {
+        "title": {
+          "$type": "string",
+          "$value": "Maturity Date of Your Participation Account Is Approaching",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5816",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your participation account will reach maturity on {date}. On this date, the profit share amount earned from your account will be automatically reflected to your account.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5817",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "View Account Details",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5818",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "hajjUmrah": {
+        "title": {
+          "$type": "string",
+          "$value": "One Step Closer to Your Hajj/Umrah Dream",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5819",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "The amount in your Hajj/Umrah Savings Participation Account has reached {amount} TL. You have reached {percentage}% of the target amount you have set.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5820",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "View My Savings Account",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5821",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "housingFinancing": {
+        "title": {
+          "$type": "string",
+          "$value": "Own the Home of Your Dreams",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5822",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "The participation banking-compliant way to own the home of your dreams. Albaraka purchases the home you have chosen on your behalf and sells it to you with suitable installment options.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5823",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Apply Now",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5824",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "outsideBistHours": {
+        "title": {
+          "$type": "string",
+          "$value": "Investment transactions are unavailable at the moment.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5825",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Your stock buy or sell orders can only be processed during the session hours determined by Borsa Istanbul (10:00 - 18:00). Our system cannot accept orders outside session hours.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5826",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "info": {
+      "interestSearch": {
+        "title": {
+          "$type": "string",
+          "$value": "There Is No Interest System at Albaraka",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5827",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "description": {
+          "$type": "string",
+          "$value": "Albaraka is a participation bank that operates based on the interest-free principle.The profit and loss partnership model is adopted instead of interest. You can find the product you are looking for under the \"Profit Share\" heading.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5828",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        },
+        "action": {
+          "$type": "string",
+          "$value": "Explore Profit Share Accounts",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5829",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "alba": {
+    "greeting": {
+      "welcome": {
+        "message": {
+          "$type": "string",
+          "$value": "Hello, I am Alba. How can I help you today?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5830",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "error": {
+      "system": {
+        "message": {
+          "$type": "string",
+          "$value": "I cannot perform this transaction at this moment. Would you like me to try again for you in a few minutes?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5831",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "balance": {
+        "message": {
+          "$type": "string",
+          "$value": "The current balance in your selected account does not appear to be sufficient for this transaction. Shall I continue with another account, or would you prefer to change the amount?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5832",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "branchRedirect": {
+        "message": {
+          "$type": "string",
+          "$value": "I cannot perform this transaction right now. You can continue through our branches or by calling Alo Albaraka at 0850 222 5 666. Would you like me to connect you?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5833",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "empty": {
+      "noAccounts": {
+        "message": {
+          "$type": "string",
+          "$value": "You do not have any active accounts at Albaraka yet. Would you like to open a participation account for savings or a current account for daily transactions? I can accompany you throughout the process.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5834",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "success": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "I have completed your transfer transaction. Would you like me to share the transaction receipt with you?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5835",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "accountOpen": {
+        "message": {
+          "$type": "string",
+          "$value": "I have opened your participation account. The profit share earned at the end of the term will be automatically reflected to this account. Is there anything else I can help you with?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5836",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "prompt": {
+      "askAccount": {
+        "message": {
+          "$type": "string",
+          "$value": "Which of your accounts would you like to perform this transaction from?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5837",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      },
+      "askAmount": {
+        "message": {
+          "$type": "string",
+          "$value": "What amount would you like to make the transaction for?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5838",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "validation": {
+      "invalid": {
+        "message": {
+          "$type": "string",
+          "$value": "I could not verify the information you just entered. Could you please check your information and try writing it again?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5839",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "confirm": {
+      "transaction": {
+        "message": {
+          "$type": "string",
+          "$value": "Here is the summary of your transaction: An amount of {amount} TL will be sent to the recipient named {recipient}. Do you confirm this transaction?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5840",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    },
+    "kb": {
+      "profitShare": {
+        "explain": {
+          "message": {
+            "$type": "string",
+            "$value": "Profit share is the income reflected to your account at the end of the term as a result of evaluating your savings in your participation account based on the profit/loss partnership principle. Its fundamental difference from interest is that it is not committed in advance. Would you like me to give you more detailed information on the subject?",
+            "$extensions": {
+              "com.figma.variableId": "VariableID:386:5841",
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.type": "string"
+            }
+          }
+        }
+      }
+    },
+    "goodbye": {
+      "message": {
+        "$type": "string",
+        "$value": "I am glad if I could help you. I am here whenever you need me again.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:386:5842",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string"
+        }
+      }
+    },
+    "fallback": {
+      "unclear": {
+        "message": {
+          "$type": "string",
+          "$value": "I am sorry, I could not fully understand your question. Could you have meant to ask about one of the following topics?",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:386:5843",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "EnStress"
+  }
+}
